@@ -1,0 +1,30 @@
+﻿#MyVideo {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	bottom: 0;
+}
+
+/*min-width (min-height) is set when the video is smaller that the browser; no effect if the video is larger*/
+
+.content1 {
+	margin: 20px 0px;
+	padding: 20px;
+	background: rgba(0,0,0,0.5);
+	bottom: 0;	
+	position: fixed;
+}
+
+/*position must be fixed or the box will not appear; Bottom set to zero to make the box touch the very bottom of browser, otherwise it be at at the top of the screen*/
+
+
+
+.content1 h1{
+	color: white;
+	font-family: century gothic;
+}
+
+.content1 p {
+	color: white;
+	font-family: century gothic;
+}
